@@ -103,6 +103,7 @@
 	  border:none;
 	  border-radius: 3px;
 	  background-color:#ffa600;
+	  
 	}
 
 	[type="submit"]:hover {
@@ -229,7 +230,7 @@
 	footer div ul li:hover a {cursor: pointer;}
 
 	/*RESPONSIVE FOR IPAD*/
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 914px) {
 
 	body {
 		padding: 0;
@@ -282,6 +283,16 @@
 		display: block;
 		text-align: center;	
 	}
+	footer div{
+		float: none;
+	}
+
+	footer {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 	}
 
 	/*RESPONSIVE FOR phone*/
@@ -293,7 +304,12 @@
 		padding: 0;
 		margin: 0;
 	}
+	form [type="submit"] {
+		
+		display: block;
+		margin: 1rem auto;
 
+	  }
 	header {
 		  height: 180px;
 	}
@@ -363,8 +379,5 @@
 		text-align: center;
 	}
 
-	footer {
-		width: 100%;
-	}
 
 	}
