@@ -28,8 +28,8 @@
 	}
 
 	header #header-img {
-	  width:150px;
-	  height:70px;
+	  width: 250px;
+	  height: 100px;
 	  padding: 20px 50px;
 	  box-sizing: border-box;
 	}
@@ -289,7 +289,7 @@
 
 	body,html{
 
-		min-width: 100vw;
+		min-width: 320px;
 		padding: 0;
 		margin: 0;
 	}
